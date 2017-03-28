@@ -1,0 +1,8 @@
+Neural_Networks.py contains all the code required for this assignment. Weights.csv contains the weights calculated after training the model on training dataset. In addition the zip contains a model of pickle file which contains all the necessary parameters of the model.
+
+Code can be easily run just by command python3 Neural_Networks.py but please put the training set, test set and training labels in the same folder where there is Neural_Networks.py file situtated.
+
+Code contains function for every task. Weights are initialised randomly. Activation functions like sigmoid, softmax, ReLu are implemented in separate functions. There is one function for calculating cost namely costfunction. Function trainNetwork trains the weights on all the training examples and is called by the main function again and again for every example. Backpropagation is supported by 2 functions minErrorathidden and minErroratfirst which calculated the value of derivative of cost function with respect to weights2 and weights1 respectively. weights2 are in 2nd layer and weights1 are in 1st layer.  Finally when the model is trained result are calculated for test data and stored in a fuile called result.csv. Error cost are also stored in an csv file. Code prints test accuracy for validation set for every epoch in console and in last it prints the predictions for the test dataset.
+
+
+The python file code without models has the exact same code without models and is working perfectly and does the same things explained above.
